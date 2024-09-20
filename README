@@ -1,0 +1,16 @@
+M-PES:
+GUI to plot Potential Energy Surfaces.
+1) Load .csv file to load the energy profiles.
+2) Set the refference energy profile:
+The first energy of this profile will be used as Energy = 0. The energy from the rest of profiles will use this refference.
+Then click Normalize.
+3) Open Settings to configure the visual aspects of the PES.
+4) eV to kcal to change the energy from eV to kcal/mol.
+5) Open second csv to open another PES and plot it along the first one. This is used to compare different PES.
+6) Plot: Plot the PES.
+
+.csv file format:
+First row: Enter the desired name of the mechanism.
+Third row: Enter the name of the structures contained in the energy profile.
+Fifth row: Enter the quantity of energy profiles plotted.
+Next rows: Enter the name of the energy profile and the energy of every PES structure.
